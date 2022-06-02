@@ -26,7 +26,7 @@ const listBelanjaan = function (dataInput) {
 
   for (let index = 0; index < dataInput.length; index++) {
     listBelajaanJoin[index] =
-      " - " + dataInput[index].nama + " x " + dataInput[index].kuantitas;
+      "- " + dataInput[index].nama + " x " + dataInput[index].kuantitas;
   }
 
   return listBelajaanJoin;
